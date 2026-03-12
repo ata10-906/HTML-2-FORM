@@ -28,4 +28,23 @@
                   return false;
         
       }
+
+      let = document.getElementsByName("relocate");
+      var selected = false;
+
+      for (var i = 0; i < relocate.length; i++) {
+        if (relocate[i].checked) {
+          selected = true;
+        break;
+      }
+    }
+
+      if (!selected) {
+        alert("Please select your willingness to relocate.");
+       return false;
+     }
+
+      return true;
   }
+</script>
+  
