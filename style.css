@@ -19,5 +19,9 @@ input{
 }
 
 submit{
-  background-color:w3-red;
+  text-color:red;
+}
+
+a{
+  text-align:center;
 }
