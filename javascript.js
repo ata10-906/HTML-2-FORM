@@ -29,10 +29,10 @@
         
       }
 
-      let = document.getElementsByName("relocate");
-      var selected = false;
+      let relocate = document.getElementsByName("relocate");
+      let selected = false;
 
-      for (var i = 0; i < relocate.length; i++) {
+      for (let i = 0; i<relocate.length; i++) {
         if (relocate[i].checked) {
           selected = true;
         break;
