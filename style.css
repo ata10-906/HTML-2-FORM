@@ -20,6 +20,42 @@ margin: 5px;
 padding: 8px;
 }
 
+<body>
+<form>
+  <fieldset>
+  <form onsubmit="return validateForm()">
+  <label>Username:</label><br>
+  <input type="text" id="username"><br><br>
 
+  <label>Email:</label><br>
+  <input type="text" id="email"><br><br>
+
+  <label>Telephone:</label><br>
+  <input type="text" id="telephone"><br><br>
+
+  <label>Position:</label><br>
+  <input type="text" id="job position"><br><br>
+
+  <input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+  </fieldset>
+</form>
+
+< div class = " container " >
+
+< form >
+    <div class="mb-3">
+    <label class="form-label">Email address</label>
+    <input type="email" class="form-control">
+    </div>
+    <div class="mb-3" >
+    <label class="form-label">Password</label>
+    <input type="password" class="form-control">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+</form>
+  
+
+  </body>
 </style>
 
