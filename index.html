@@ -27,7 +27,8 @@
 		</div>
 
 	  </header>
-	  <form name="myForm" onsubmit="return validateForm()">
+	  <form>
+		  <fieldset>
 		  <div class="container">
 				<!--contact info-->
 				<legend class="text-red text-center">Contact Info:</legend>
@@ -74,6 +75,7 @@
 					<br>
 					</n>
 
+					<fieldset></fieldset>
 					<!--Additional controls info-->
 					<legend class="text-center">Additional Controls:</legend>
 						<!--Type of position-->
@@ -86,7 +88,9 @@
 						<option value="vp_sales">VP Sales</option>
 						</select>
 						<br>
-			  
+					
+
+						<fieldset>
 			  		<!-- Willingness to Relocate Info -->
 					<p><strong>Willingness to Relocate:</strong></p>
 			  		<label>
@@ -97,12 +101,16 @@
 						<input type="radio" name="no">No</label>
 			  			<br>
 
+						</fieldset>
+						<form>
+							<fieldset>
 			  		<!-- Submit and Reset Buttons -->
 					<input type="submit" value="Submit">
-					<input type="reset" value="Reset">			
+					<input type="reset" value="Reset">	
+							</fieldset>
 				   </div>
-		  </form>
-  </fieldset>
+						</form>
+	  
 
   </n>
 	  <footer>
