@@ -1,20 +1,2 @@
-body{
-  background-color:#f5f5f5;
-  font-family:Arial;
-}
 
-fieldset{
-  boader:2px solid #077bff;
-  padding:20px;
-}
-
-legend{
-  color:#077bff;
-  font-weight:bold;
-}
-
-input{
-  margin:5px;
-  padding:8px;
-}
 
