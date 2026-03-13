@@ -28,23 +28,8 @@
                   return false;
         
       }
-
-      let relocate = document.getElementsByName("relocate");
-      let selected = false;
-
-      for (let i = 0; i<relocate.length; i++) {
-        if (relocate[i].checked) {
-          selected = true;
-        break;
-      }
-    }
-
-      if (!selected) {
-        alert("Please select your willingness to relocate.");
-       return false;
-     }
-
-      return true;
-  }
+  alert("Form submitted successfully!!"
+}
+     
 </script>
   
