@@ -44,5 +44,22 @@
      
 </script>
 <body>
-  <form
+  <form onsubmit="return validateForm()">
+  <label>Username:</label><br>
+  <input type="text" id="username"><br><br>
+
+  <label>Email:</label><br>
+  <input type="text" id="email"><br><br>
+
+  <label>Telephone:</label><br>
+  <input type="text" id="telephone"><br><br>
+
+  <label>Position:</label><br>
+  <input type="text" id="job position"><br><br>
+
+  <input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+  </form>
+  </body>
+
   
