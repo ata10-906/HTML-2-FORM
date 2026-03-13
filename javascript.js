@@ -28,7 +28,7 @@
                   return false;
         
       }
-  alert("Form submitted successfully!!"
+  alert("Form submitted successfully!!");
 }
      
 </script>
