@@ -1,9 +1,19 @@
 <script>
   fuction validateForm() {
-      let Username = document.forms["myForm"]["username"].value
-      let Email = document.forms["myForm"]["email"].value
-      let Telephone = document.forms["myForm"]["telephone"].value
-      let Position = document.forms["myForm"]["job position"].value
+      var Username=
+        document.getElementById("name").value
+
+       var Email=
+        document.getElementById("email").value
+
+       var Telephone=
+        document.getElementById("telephone").value
+
+       var Position=
+        document.getElementById("job position").value
+
+
+
 
       if(Username == ""){
             alert("Please enter your name");
@@ -29,6 +39,7 @@
         
       }
   alert("Form submitted successfully!!");
+    return true;
 }
      
 </script>
